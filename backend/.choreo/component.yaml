@@ -1,10 +1,9 @@
 schemaVersion: "1.2"
 
-
 build:
   env:
     - name: GOOGLE_PYTHON_VERSION
-      value: "3.10.12"
+      value: "3.10.15"
 
 endpoints:
   - name: rest-api-be2
@@ -19,5 +18,5 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: openai-connection
-      resourceRef: thirdparty:openai/v1
+    - name: openai_connection
+      resourceRef: thirdparty:openai/v2
