@@ -1,4 +1,11 @@
 schemaVersion: "1.2"
+
+
+build:
+  env:
+    - name: GOOGLE_PYTHON_VERSION
+      value: "3.10.12"
+
 endpoints:
   - name: rest-api-be2
     displayName: REST API
